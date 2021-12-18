@@ -25,6 +25,7 @@ public class Log4JDemo {
         // log4j2 LogManager
         final org.apache.logging.log4j.Logger LOGGER2 = org.apache.logging.log4j.LogManager.getLogger(Log4JDemo.class);
         LOGGER2.info(name);
+        LOGGER2.error(name);
 
     }
 }
